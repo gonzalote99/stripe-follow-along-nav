@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>stripe follow along nav</title>
+</head>
+<body>
+  <header>
+  <img src="https://raw.githubusercontent.com/naveen-27/stripe-desktop-menu/e8ba5b53ff213659b916c53fbe8f0e15df82f060/images/logo.svg" alt="Stripe Logo">
+  <nav class="navbar">
+    <ul class="nav__links">
+     <li data-expand="products" class="nav--link">products</li>
+     <li data-expand="use-cases" class="nav--link">use-cases</li>
+     <li data-expand="developers" class="nav--link">developers</li>
+     <li data-expand="company" class="nav--link">company</li>
+    </ul>
+
+  </nav>
+  <button class="btn btn--primary">
+  <span>sign in</span>
+  <div class="arrow">
+   <div class="line-arrow--sideUp"></div>
+   <div class="line-arrow--sideDown"></div>
+   <div class="line-arrow--hoverLine"></div>
+  </div>
+  </button>
+
+  <div class="tip"></div>
+  <section class="header__expandMenu">
+    <div class="menu__container">
+      <div id="products">
+        <div class="sub__menu">
+         <h3 class="title">payaments</h3>
+         <ul class="subMenu__items">
+         <li class="subMenu--item">
+          <img src="https://raw.githubusercontent.com/naveen-27/stripe-desktop-menu/e8ba5b53ff213659b916c53fbe8f0e15df82f060/images/payment.svg" alt="" />
+          <span class="label__container">
+            <div class="label">
+             payments
+             <img 
+              class="right--arrow"
+              src="https://raw.githubusercontent.com/naveen-27/stripe-desktop-menu/e8ba5b53ff213659b916c53fbe8f0e15df82f060/images/right-arrow.svg" alt=""
+
+             />
+            </div>
+            <div class="label--desc">online payments</div>
+          </span>
+         </li>
+         <li class="subMenu--item">
+          <img src="https://raw.githubusercontent.com/naveen-27/stripe-desktop-menu/e8ba5b53ff213659b916c53fbe8f0e15df82f060/images/terminal.svg" alt="" />
+          <span class="label__container">
+            <div class="label">
+               terminal
+               <img 
+                class="right--arrow"
+                src="https://raw.githubusercontent.com/naveen-27/stripe-desktop-menu/e8ba5b53ff213659b916c53fbe8f0e15df82f060/images/right-arrow.svg" alt=""
+               />
+            </div>
+            <div class="label--desc">in person payments</div>
+          </span>
+
+         </li>
+         <li class="subMenu--item">
+          <img src="https://raw.githubusercontent.com/naveen-27/stripe-desktop-menu/e8ba5b53ff213659b916c53fbe8f0e15df82f060/images/connect.svg" alt="" />
+          <span class="label__container">
+            <div class="label">
+               terminal
+               <img 
+                class="right--arrow"
+                src="https://raw.githubusercontent.com/naveen-27/stripe-desktop-menu/e8ba5b53ff213659b916c53fbe8f0e15df82f060/images/right-arrow.svg" alt=""
+               />
+            </div>
+            <div class="label--desc">payments for plataform</div>
+          </span>
+          
+         </li>
+
+         <li class="subMenu--item">
+          <img src="https://raw.githubusercontent.com/naveen-27/stripe-desktop-menu/e8ba5b53ff213659b916c53fbe8f0e15df82f060/images/billing.svg" alt="" />
+          <span class="label__container">
+            <div class="label">
+               terminal
+               <img 
+                class="right--arrow"
+                src="https://raw.githubusercontent.com/naveen-27/stripe-desktop-menu/e8ba5b53ff213659b916c53fbe8f0e15df82f060/images/right-arrow.svg" alt=""
+               />
+            </div>
+            <div class="label--desc">subscription</div>
+          </span>
+          
+         </li>
+         </ul>
+
+        </div>
+
+        <div class="sub__menu">
+         <h3 class="title">payouts</h3>
+         <ul class="subMenu__items">
+            <li class="subMenu--item">
+            <img src="https://raw.githubusercontent.com/naveen-27/stripe-desktop-menu/e8ba5b53ff213659b916c53fbe8f0e15df82f060/images/payouts.svg" alt="" />
+            <span class="label__container">
+                  <div class="label">
+                  payouts
+                <img 
+                 class="right--arrow"
+                 src="https://raw.githubusercontent.com/naveen-27/stripe-desktop-menu/e8ba5b53ff213659b916c53fbe8f0e15df82f060/images/right-arrow.svg" alt=""
+                />
+                </div>
+                <div class="label--desc">programatic payout</div>
+            </span>
+            </li>
+
+            <li class="subMenu--item">
+              <img src="https://raw.githubusercontent.com/naveen-27/stripe-desktop-menu/e8ba5b53ff213659b916c53fbe8f0e15df82f060/images/issuing.svg" alt="" />
+              <span class="label__container">
+                    <div class="label">
+                    payouts
+                  <img 
+                   class="right--arrow"
+                   src="https://raw.githubusercontent.com/naveen-27/stripe-desktop-menu/e8ba5b53ff213659b916c53fbe8f0e15df82f060/images/right-arrow.svg" alt=""
+                  />
+                  </div>
+                  <div class="label--desc">card creation</div>
+              </span>
+              </li>
+         </ul>
+
+
+        </div>
+
+        <div class="sub__menu">
+          <h3 class="title">business operations</h3>
+          <ul class="subMenu__items">
+             <li class="subMenu--item">
+             <img src="https://raw.githubusercontent.com/naveen-27/stripe-desktop-menu/e8ba5b53ff213659b916c53fbe8f0e15df82f060/images/radar.svg" alt="" />
+             <span class="label__container">
+                   <div class="label">
+                   radar
+                 <img 
+                  class="right--arrow"
+                  src="https://raw.githubusercontent.com/naveen-27/stripe-desktop-menu/e8ba5b53ff213659b916c53fbe8f0e15df82f060/images/right-arrow.svg" alt=""
+                 />
+                 </div>
+                 <div class="label--desc">fraud management</div>
+             </span>
+             </li>
+ 
+             <li class="subMenu--item">
+               <img src="https://raw.githubusercontent.com/naveen-27/stripe-desktop-menu/e8ba5b53ff213659b916c53fbe8f0e15df82f060/images/sigma.svg" alt="" />
+               <span class="label__container">
+                     <div class="label">
+                     sigma
+                   <img 
+                    class="right--arrow"
+                    src="https://raw.githubusercontent.com/naveen-27/stripe-desktop-menu/e8ba5b53ff213659b916c53fbe8f0e15df82f060/images/right-arrow.svg" alt=""
+                   />
+                   </div>
+                   <div class="label--desc">custom reports</div>
+               </span>
+               </li>
+               <li class="subMenu--item">
+                <img src="https://raw.githubusercontent.com/naveen-27/stripe-desktop-menu/e8ba5b53ff213659b916c53fbe8f0e15df82f060/images/atlas.svg" alt="" />
+                <span class="label__container">
+                      <div class="label">
+                      atlas
+                    <img 
+                     class="right--arrow"
+                     src="https://raw.githubusercontent.com/naveen-27/stripe-desktop-menu/e8ba5b53ff213659b916c53fbe8f0e15df82f060/images/right-arrow.svg" alt=""
+                    />
+                    </div>
+                    <div class="label--desc">start up incorporation</div>
+                </span>
+                </li>
+          </ul>
+ 
+ 
+         </div>
+ 
+
+
+
+      </div>
+
+      <div id="use-cases">
+        <ul class="subMenu__items">
+          <li class="subMenu--item">
+           <img class="icon--production" src="https://raw.githubusercontent.com/naveen-27/stripe-desktop-menu/e8ba5b53ff213659b916c53fbe8f0e15df82f060/images/saas.svg" alt="" />
+           <span class="label__container">
+             <div class="label">
+              saas
+              <img 
+               class="right--arrow"
+               src="https://raw.githubusercontent.com/naveen-27/stripe-desktop-menu/e8ba5b53ff213659b916c53fbe8f0e15df82f060/images/right-arrow.svg" alt=""
+ 
+              />
+             </div>
+             <div class="label--desc">manage subscriptions</div>
+           </span>
+          </li>
+          <li class="subMenu--item">
+           <img class="icon--production" src="https://raw.githubusercontent.com/naveen-27/stripe-desktop-menu/e8ba5b53ff213659b916c53fbe8f0e15df82f060/images/marketplace.svg" alt="" />
+           <span class="label__container">
+             <div class="label">
+                marketplaves
+                <img 
+                 class="right--arrow"
+                 src="https://raw.githubusercontent.com/naveen-27/stripe-desktop-menu/e8ba5b53ff213659b916c53fbe8f0e15df82f060/images/right-arrow.svg" alt=""
+                />
+             </div>
+             <div class="label--desc">pay out globally</div>
+           </span>
+ 
+          </li>
+          <li class="subMenu--item">
+           <img class="icon--production" src="https://raw.githubusercontent.com/naveen-27/stripe-desktop-menu/e8ba5b53ff213659b916c53fbe8f0e15df82f060/images/plataform.svg" alt="" />
+           <span class="label__container">
+             <div class="label">
+                plataform
+                <img 
+                 class="right--arrow"
+                 src="https://raw.githubusercontent.com/naveen-27/stripe-desktop-menu/e8ba5b53ff213659b916c53fbe8f0e15df82f060/images/right-arrow.svg" alt=""
+                />
+             </div>
+             <div class="label--desc">accept payment</div>
+           </span>
+           
+          </li>
+ 
+          
+          </ul>
+      </div>
+
+      <div id="developers">
+        <div class="subMenu--item item--one">
+         <img 
+           class="icon--production"
+           src="https://raw.githubusercontent.com/naveen-27/stripe-desktop-menu/e8ba5b53ff213659b916c53fbe8f0e15df82f060/images/documentation.svg"
+           alt=""
+         />
+         <span class="label__container">
+         <div class="label">
+          documentation
+         
+         <img
+           class="right--arrow"
+           src="https://raw.githubusercontent.com/naveen-27/stripe-desktop-menu/e8ba5b53ff213659b916c53fbe8f0e15df82f060/images/right-arrow.svg"
+           alt=""
+         />
+        </div>
+        <div class="label--desc">
+         start integrating
+        </div>
+
+         </span>
+        </div>
+        <div class="sec___links--container">
+           <h4 class="sec__title">get started</h4>
+           <ul class="sec__links">
+            <li class="sec__link">prebuilt checkbout</li>
+            <li class="sec__link">liberaries and sdks</li>
+            <li class="sec__link">code sample</li>
+            <li class="sec__link">plugins</li>
+           </ul>
+        </div>
+        <div class="sec___links--container">
+          <h4 class="sec__title">get started</h4>
+          <ul class="sec__links">
+           <li class="sec__link">accept online pay</li>
+           <li class="sec__link">manage subscriptions</li>
+           <li class="sec__link">send payments</li>
+           <li class="sec__link">in person payments</li>
+          </ul>
+       </div>
+
+       <ul class="subMenu__items sec--menu">
+       <li class="subMenu--item">
+       <img src="https://raw.githubusercontent.com/naveen-27/stripe-desktop-menu/e8ba5b53ff213659b916c53fbe8f0e15df82f060/images/reference.svg" alt="" />
+       <span class="label__container">
+        <div class="label">
+        full api reference
+        
+        <img 
+         class="right-arrow"
+         src="https://raw.githubusercontent.com/naveen-27/stripe-desktop-menu/e8ba5b53ff213659b916c53fbe8f0e15df82f060/images/right-arrow.svg"
+         alt=""
+        />
+      </div>
+       </span>
+       </li>
+
+       <li class="subMenu--item">
+        <img src="https://raw.githubusercontent.com/naveen-27/stripe-desktop-menu/e8ba5b53ff213659b916c53fbe8f0e15df82f060/images/support.svg" alt="" />
+        <span class="label__container">
+         <div class="label">
+         support
+         
+         <img 
+          class="right-arrow"
+          src="https://raw.githubusercontent.com/naveen-27/stripe-desktop-menu/e8ba5b53ff213659b916c53fbe8f0e15df82f060/images/right-arrow.svg"
+          alt=""
+         />
+       </div>
+        </span>
+        </li>
+       </ul>
+
+       <ul class="subMenu__items sec--menu">
+        <li class="subMenu--item">
+        <img src="https://raw.githubusercontent.com/naveen-27/stripe-desktop-menu/e8ba5b53ff213659b916c53fbe8f0e15df82f060/images/status.svg" alt="" />
+        <span class="label__container">
+         <div class="label">
+         Api status
+         
+         <img 
+          class="right-arrow"
+          src="https://raw.githubusercontent.com/naveen-27/stripe-desktop-menu/e8ba5b53ff213659b916c53fbe8f0e15df82f060/images/right-arrow.svg"
+          alt=""
+         />
+       </div>
+        </span>
+        </li>
+ 
+        <li class="subMenu--item">
+         <img src="https://raw.githubusercontent.com/naveen-27/stripe-desktop-menu/e8ba5b53ff213659b916c53fbe8f0e15df82f060/images/changelog.svg" alt="" />
+         <span class="label__container">
+          <div class="label">
+          changelog
+          
+          <img 
+           class="right-arrow"
+           src="https://raw.githubusercontent.com/naveen-27/stripe-desktop-menu/e8ba5b53ff213659b916c53fbe8f0e15df82f060/images/right-arrow.svg"
+           alt=""
+          />
+        </div>
+         </span>
+         </li>
+        </ul>
+      
+      </div>
+
+
+      <div id="company">
+        <ul class="subMenu__items sec--menu">
+          <li class="subMenu--item">
+          <img src="https://raw.githubusercontent.com/naveen-27/stripe-desktop-menu/e8ba5b53ff213659b916c53fbe8f0e15df82f060/images/about.svg" alt="" />
+          <span class="label__container">
+           <div class="label">
+           about stripe
+           
+           <img 
+            class="right-arrow"
+            src="https://raw.githubusercontent.com/naveen-27/stripe-desktop-menu/e8ba5b53ff213659b916c53fbe8f0e15df82f060/images/right-arrow.svg"
+            alt=""
+           />
+         </div>
+          </span>
+          </li>
+   
+          <li class="subMenu--item">
+           <img src="https://raw.githubusercontent.com/naveen-27/stripe-desktop-menu/e8ba5b53ff213659b916c53fbe8f0e15df82f060/images/customers.svg" alt="" />
+           <span class="label__container">
+            <div class="label">
+            customers
+            
+            <img 
+             class="right-arrow"
+             src="https://raw.githubusercontent.com/naveen-27/stripe-desktop-menu/e8ba5b53ff213659b916c53fbe8f0e15df82f060/images/right-arrow.svg"
+             alt=""
+            />
+          </div>
+           </span>
+           </li>
+           <li class="subMenu--item">
+            <img src="https://raw.githubusercontent.com/naveen-27/stripe-desktop-menu/e8ba5b53ff213659b916c53fbe8f0e15df82f060/images/enterprise.svg" alt="" />
+            <span class="label__container">
+             <div class="label">
+             enterprise
+             
+             <img 
+              class="right-arrow"
+              src="https://raw.githubusercontent.com/naveen-27/stripe-desktop-menu/e8ba5b53ff213659b916c53fbe8f0e15df82f060/images/right-arrow.svg"
+              alt=""
+             />
+           </div>
+            </span>
+            </li>
+          </ul>
+
+          <ul class="subMenu__items sec--menu">
+            <li class="subMenu--item">
+            <img src="https://raw.githubusercontent.com/naveen-27/stripe-desktop-menu/e8ba5b53ff213659b916c53fbe8f0e15df82f060/images/jobs.svg" alt="" />
+            <span class="label__container">
+             <div class="label">
+             jobs
+             
+             <img 
+              class="right-arrow"
+              src="https://raw.githubusercontent.com/naveen-27/stripe-desktop-menu/e8ba5b53ff213659b916c53fbe8f0e15df82f060/images/right-arrow.svg"
+              alt=""
+             />
+           </div>
+            </span>
+            </li>
+     
+            <li class="subMenu--item">
+             <img src="https://raw.githubusercontent.com/naveen-27/stripe-desktop-menu/e8ba5b53ff213659b916c53fbe8f0e15df82f060/images/newsroom.svg" alt="" />
+             <span class="label__container">
+              <div class="label">
+              newsroom
+              
+              <img 
+               class="right-arrow"
+               src="https://raw.githubusercontent.com/naveen-27/stripe-desktop-menu/e8ba5b53ff213659b916c53fbe8f0e15df82f060/images/right-arrow.svg"
+               alt=""
+              />
+            </div>
+             </span>
+             </li>
+             <li class="subMenu--item">
+              <img src="https://raw.githubusercontent.com/naveen-27/stripe-desktop-menu/e8ba5b53ff213659b916c53fbe8f0e15df82f060/images/partners.svg" alt="" />
+              <span class="label__container">
+               <div class="label">
+               partners
+               
+               <img 
+                class="right-arrow"
+                src="https://raw.githubusercontent.com/naveen-27/stripe-desktop-menu/e8ba5b53ff213659b916c53fbe8f0e15df82f060/images/right-arrow.svg"
+                alt=""
+               />
+             </div>
+              </span>
+              </li>
+            </ul>
+
+            <div class="more__info">
+              <h4 class="sec__title">from the blog</h4>
+              <div class="more__links">
+              <a href="#">european payment</a>
+              <a href="#">another payment</a>
+              <a href="#">more payment</a>
+
+              </div> 
+            </div>
+      </div>
+    </div>
+  </section>
+
+  </header>
+</body>
+<script src="script.js"></script>
+</html>
