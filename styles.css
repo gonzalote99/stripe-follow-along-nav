@@ -67,11 +67,11 @@ header {
 
 .line {
   position: absolute;
-  top: 47%;
+  top: 46%;
   right: 0;
   height: 2px;
   width: 7px;
-  background-color: #fff;
+  background-color: rgb(245, 241, 241);
   transform-origin: 100% 50%;
 }
 
@@ -115,11 +115,11 @@ transform: rotate(-45deg);
 .tip {
   width: 1.25rem;
   height: 1.25rem;
-  background-color: #fff;
+  background-color: rgb(219, 214, 214);
   position: absolute;
   top: 4.15rem;
   left: 0;
-  clip-path: polygon(50%, 0%, 100% 50%, 50% 100%, 0% 50%);
+  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
   transition: transform 100ms linear ;
   opacity: 0;
 
